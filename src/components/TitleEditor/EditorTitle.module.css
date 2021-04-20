@@ -1,0 +1,13 @@
+.container {
+	display: flex;
+	position: relative;
+	width: 50%;
+	height: 50px;
+}
+
+.title {
+	font-size: 30px;
+	color: #eee;
+	font-weight: 700;
+	letter-spacing: 2px;
+}

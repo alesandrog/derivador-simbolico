@@ -3250,6 +3250,11 @@ coa@^2.0.2:
     chalk "^2.4.1"
     q "^1.1.2"
 
+codemirror@^5.60.0:
+  version "5.60.0"
+  resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.60.0.tgz#00a8cfd287d5d8737ceb73987f04aee2fe5860da"
+  integrity sha512-AEL7LhFOlxPlCL8IdTcJDblJm8yrAGib7I+DErJPdZd4l6imx8IMgKK3RblVgBQqz3TZJR4oknQ03bz+uNjBYA==
+
 collect-v8-coverage@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/collect-v8-coverage/-/collect-v8-coverage-1.0.1.tgz#cc2c8e94fc18bbdffe64d6534570c8a673b27f59"
@@ -8907,6 +8912,11 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
+react-codemirror2@^7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/react-codemirror2/-/react-codemirror2-7.2.1.tgz#38dab492fcbe5fb8ebf5630e5bb7922db8d3a10c"
+  integrity sha512-t7YFmz1AXdlImgHXA9Ja0T6AWuopilub24jRaQdPVbzUJVNKIYuy3uCFZYa7CE5S3UW6SrSa5nAqVQvtzRF9gw==
+
 react-dev-utils@^11.0.3:
   version "11.0.4"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"
@@ -9234,7 +9244,7 @@ repeat-element@^1.1.2:
   resolved "https://registry.yarnpkg.com/repeat-element/-/repeat-element-1.1.3.tgz#782e0d825c0c5a3bb39731f84efee6b742e6b1ce"
   integrity sha512-ahGq0ZnV5m5XtZLMb+vP76kcAM5nkLqk0lpqAuojSKGgQtn4eRi4ZZGm2olo2zKFH+sMsWaqOCW1dqAnOru72g==
 
-repeat-string@^1.6.1:
+repeat-string@1.6.1, repeat-string@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
   integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
@@ -11308,6 +11318,13 @@ ws@^7.2.3:
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.3.tgz#1f9643de34a543b8edb124bdcbc457ae55a6e5cd"
   integrity sha512-hr6vCR76GsossIRsr8OLR9acVVm1jyfEWvhbNjtgPOrfvAlKzvyeg/P6r8RuDjRyrcQoPQT7K0DGEPc7Ae6jzA==
 
+xml-beautifier@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/xml-beautifier/-/xml-beautifier-0.4.3.tgz#2d5e320e19bf70ac7343c01135a1f99df08b4c37"
+  integrity sha512-jtqVgG2mXX+mZYSq80tPWBcrtPGL3JwCtcME52c7Aau1R34quuJw86R9A+KFO7F6EQAaagUmMXGhDRKGV3UXhw==
+  dependencies:
+    repeat-string "1.6.1"
+
 xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
@@ -11317,6 +11334,18 @@ xmlchars@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
+
+xslt-processor@^0.11.5:
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/xslt-processor/-/xslt-processor-0.11.5.tgz#efc6f087444a603243f792103d995e1ca6cb9283"
+  integrity sha512-1sqWl7cfLLPpGi5cieiIlqqpQU3f44N7gfFzCqvi0Om53vxmwZIp877x5+H6HoxaL8cr1xGG3OWRR2FtOC7zTg==
+  dependencies:
+    he "^1.2.0"
+
+xslt@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/xslt/-/xslt-0.9.1.tgz#e7f401af1b9eaa728b0bd63f49787dd6d0845178"
+  integrity sha512-2eFkaiFRVkVzedBKYv3MUYmvvK9103NTNFGsyFhLim0Pad0q5yXp2j9tQM2lFW1gFr9fSXV70RRrdcRM7YdRcg==
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"

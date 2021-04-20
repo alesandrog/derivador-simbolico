@@ -1,0 +1,8 @@
+.container {
+	display: flex;
+	position: relative;
+	width: 50%;
+	height: max-content;
+	flex-direction: column;
+	padding: 0 15px;
+}
