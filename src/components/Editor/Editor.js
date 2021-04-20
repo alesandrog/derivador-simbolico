@@ -20,7 +20,7 @@ import 'codemirror/addon/fold/foldgutter.css';
 
 export default class Editor extends Component {
 	render() {
-		const { title, readOnly, setCode, code } = this.props;
+		const { title, readOnly, code } = this.props;
 		return (
 			<div className={styles.container}>
 				<EditorTitle title={title} />
